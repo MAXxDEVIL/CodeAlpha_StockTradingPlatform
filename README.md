@@ -45,7 +45,7 @@ java -cp out Main
 ### One-liner
 
 ```bash
-javac -d out src/*.java && java -cp out Main
+mkdir -p out && javac -d out src/*.java && java -cp out Main
 ```
 
 > Requires Java 14 or higher (uses switch expressions).
