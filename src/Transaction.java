@@ -20,12 +20,29 @@ public class Transaction {
         this.timestamp = LocalDateTime.now();
     }
 
-    public Type getType() { return type; }
-    public Stock getStock() { return stock; }
-    public int getQuantity() { return quantity; }
-    public double getPrice() { return price; }
-    public double getTotalAmount() { return totalAmount; }
-    public LocalDateTime getTimestamp() { return timestamp; }
+    public Type getType() {
+        return type;
+    }
+
+    public Stock getStock() {
+        return stock;
+    }
+
+    public int getQuantity() {
+        return quantity;
+    }
+
+    public double getPrice() {
+        return price;
+    }
+
+    public double getTotalAmount() {
+        return totalAmount;
+    }
+
+    public LocalDateTime getTimestamp() {
+        return timestamp;
+    }
 
     @Override
     public String toString() {

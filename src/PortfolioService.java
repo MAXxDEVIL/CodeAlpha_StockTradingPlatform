@@ -2,7 +2,6 @@ import java.util.List;
 import java.util.Map;
 
 public class PortfolioService {
-
     public void displayPortfolio(User user) {
         Portfolio portfolio = user.getPortfolio();
         Map<Stock, Integer> holdings = portfolio.getHoldings();

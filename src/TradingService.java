@@ -1,5 +1,4 @@
 public class TradingService {
-
     public String buyStock(User user, Stock stock, int quantity) {
         if (quantity <= 0) {
             return "Quantity must be greater than 0.";

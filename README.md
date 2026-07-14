@@ -97,3 +97,4 @@ javac -d out src/*.java && java -cp out Main
 - **Starting Capital**: ₹10,000 virtual cash
 - **Persistence**: In-memory only (data resets on exit)
 - **Dependencies**: None (pure Java, no external libraries)
+

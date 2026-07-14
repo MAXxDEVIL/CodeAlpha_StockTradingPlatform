@@ -12,8 +12,13 @@ public class User {
         this.transactionHistory = new ArrayList<>();
     }
 
-    public String getName() { return name; }
-    public Portfolio getPortfolio() { return portfolio; }
+    public String getName() {
+        return name;
+    }
+
+    public Portfolio getPortfolio() {
+        return portfolio;
+    }
     public List<Transaction> getTransactionHistory() {
         return new ArrayList<>(transactionHistory);
     }
